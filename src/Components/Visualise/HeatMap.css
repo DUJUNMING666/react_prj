@@ -1,0 +1,8 @@
+.container{
+    width: 400px;
+    z-index: 999;
+    position: absolute;
+    height: 400px;
+    border-radius: 20px;
+    border-color: navajowhite;
+}

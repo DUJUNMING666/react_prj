@@ -1,0 +1,42 @@
+.header-dark {
+    background-color: #001529;
+    color: #ffffff;
+}
+
+.header-light {
+    background-color: #fff;
+    color: #000000;
+}
+
+.custom-menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu {
+    margin-right: 10px;
+}
+.switch-dark .ant-switch-checked {
+    background-color: #ffffff;
+}
+
+.switch-dark .ant-switch-handle {
+    background-color: #001529;
+}
+
+/* Switch styles for light theme */
+.switch-light .ant-switch-checked {
+    background-color: #001529;
+}
+
+.switch-light .ant-switch-handle {
+    background-color: #ffffff;
+}
+:where(.css-dev-only-do-not-override-1vr7spz).ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected, :where(.css-dev-only-do-not-override-1vr7spz).ant-tree .ant-tree-checkbox+span.ant-tree-node-selected {
+    background-color: skyblue;
+    border-radius: 5px;
+}
+Link {
+    color: #ffffff;
+}
